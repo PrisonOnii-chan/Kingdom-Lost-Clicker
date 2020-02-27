@@ -1,0 +1,11 @@
+scale = 3;
+sw = string_width(name)*scale;
+sh = string_height(name)*scale;
+x_pos = 0;//global.gui_w/2;
+y_pos = 0;//global.gui_h/2;
+x1 = 0;//x_pos - sw/2;
+x2 = 0;//x_pos + sw/2;
+y1 = 0;//y_pos - 8;
+y2 = 0;//y_pos + 8;
+clicked = false;
+initialized = false;
