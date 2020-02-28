@@ -9,6 +9,7 @@ for(var i = 0; i < 2; i++)
     global.touch_x[i] = -1;
     global.touch_y[i] = -1;
 }
+global.touched = keyboard_check_pressed(ord("J"));
 for(var i = 0; i < 2; i++)
 {
     if device_mouse_check_button_pressed(i, mb_left)
